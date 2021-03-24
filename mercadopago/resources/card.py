@@ -1,7 +1,7 @@
 """
     Module: card
 """
-from mercadopago.core import MPBase
+from ..core import MPBase
 
 class Card(MPBase):
 

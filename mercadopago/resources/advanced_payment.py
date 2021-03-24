@@ -2,7 +2,7 @@
     Module: advanced_payment
 """
 from datetime import datetime
-from mercadopago.core import MPBase
+from ..core import MPBase
 
 class AdvancedPayment(MPBase):
 

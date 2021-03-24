@@ -1,7 +1,7 @@
 """
     Module: card_token
 """
-from mercadopago.core import MPBase
+from ..core import MPBase
 
 class CardToken(MPBase):
 

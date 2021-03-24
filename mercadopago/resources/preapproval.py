@@ -1,7 +1,7 @@
 """
     Module: preapproval
 """
-from mercadopago.core import MPBase
+from ..core import MPBase
 
 class PreApproval(MPBase):
 

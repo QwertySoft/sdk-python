@@ -1,7 +1,7 @@
 """
     Module: merchant_order
 """
-from mercadopago.core import MPBase
+from ..core import MPBase
 
 class MerchantOrder(MPBase):
 

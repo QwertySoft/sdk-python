@@ -1,7 +1,7 @@
 """
     Module: payment_methods
 """
-from mercadopago.core import MPBase
+from ..core import MPBase
 
 class PaymentMethods(MPBase):
 

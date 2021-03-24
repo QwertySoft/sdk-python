@@ -1,7 +1,7 @@
 """
     Module: customer
 """
-from mercadopago.core import MPBase
+from ..core import MPBase
 
 class Customer(MPBase):
 

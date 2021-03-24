@@ -1,7 +1,7 @@
 """
     Module: identification_type
 """
-from mercadopago.core import MPBase
+from ..core import MPBase
 
 class IdentificationType(MPBase):
 

@@ -1,7 +1,7 @@
 """
     Module: disbursement_refund
 """
-from mercadopago.core import MPBase
+from ..core import MPBase
 
 class DisbursementRefund(MPBase):
 
