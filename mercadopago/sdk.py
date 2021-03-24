@@ -1,21 +1,21 @@
 """
 Module: sdk
 """
-from mercadopago.resources import AdvancedPayment
-from mercadopago.resources import CardToken
-from mercadopago.resources import Card
-from mercadopago.resources import Customer
-from mercadopago.resources import DisbursementRefund
-from mercadopago.resources import IdentificationType
-from mercadopago.resources import MerchantOrder
-from mercadopago.resources import PaymentMethods
-from mercadopago.resources import Payment
-from mercadopago.resources import PreApproval
-from mercadopago.resources import Preference
-from mercadopago.resources import Refund
-from mercadopago.resources import User
-from mercadopago.config import RequestOptions
-from mercadopago.http import HttpClient
+from .resources import AdvancedPayment
+from .resources import CardToken
+from .resources import Card
+from .resources import Customer
+from .resources import DisbursementRefund
+from .resources import IdentificationType
+from .resources import MerchantOrder
+from .resources import PaymentMethods
+from .resources import Payment
+from .resources import PreApproval
+from .resources import Preference
+from .resources import Refund
+from .resources import User
+from .config import RequestOptions
+from .http import HttpClient
 
 class SDK():
 
@@ -43,10 +43,10 @@ class SDK():
 
         """Construct ur SDK Object to have access to all APIs modules.
         Args:
-            [Click here for more infos](https://www.mercadopago.com/mlb/account/credentials)
-            http_client (mercadopago.http.http_client, optional): An implementation of
+            [Click here for more infos](https://www..com/mlb/account/credentials)
+            http_client (.http.http_client, optional): An implementation of
             HttpClient can be pass to be used to make the REST calls. Defaults to None.
-            request_options (mercadopago.config.request_options, optional): An instance
+            request_options (.config.request_options, optional): An instance
             of RequestOptions can be pass changing or adding custom options to ur REST
             calls. Defaults to None.
         Raises:
